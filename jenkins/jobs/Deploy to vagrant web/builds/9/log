@@ -1,0 +1,22 @@
+Started by user [8mha:////4FZOFj8VrrBY/YJ1K54P4hS8QpxCXjoBXnrUsP1+Nx9RAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Just test
+[Just test] $ /bin/sh -xe /tmp/jenkins1547190591020939753.sh
++ echo Start Index.html
+Start Index.html
++ cat
++ ls -alsh
+total 12K
+4.0K drwxr-xr-x 2 jenkins jenkins 4.0K Jun  4 08:29 .
+4.0K drwxr-xr-x 3 jenkins jenkins 4.0K Jun  4 08:25 ..
+4.0K -rw-r--r-- 1 jenkins jenkins  169 Jun  4 11:06 index.html
+SSH: Connecting from host [vagrant]
+SSH: Connecting with configuration [vagrant web ssh] ...
+SSH: EXEC: STDOUT/STDERR from command [service nginx restart] ...
+Failed to restart nginx.service: Interactive authentication required.
+See system logs and 'systemctl status nginx.service' for details.
+SSH: EXEC: completed after 204 ms
+SSH: Disconnecting configuration [vagrant web ssh] ...
+ERROR: Exception when publishing, exception message [Exec exit status not zero. Status [1]]
+Build step 'Send build artifacts over SSH' changed build result to UNSTABLE
+Finished: UNSTABLE

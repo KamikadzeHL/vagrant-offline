@@ -1,0 +1,15 @@
+Started by user [8mha:////4FZOFj8VrrBY/YJ1K54P4hS8QpxCXjoBXnrUsP1+Nx9RAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Deploy to vagrant web
+[Deploy to vagrant web] $ /bin/sh -xe /tmp/jenkins6767251788519180584.sh
++ echo Start Index.html
+Start Index.html
++ cat
++ exit 0
+SSH: Connecting from host [vagrant]
+SSH: Connecting with configuration [vagrant web ssh] ...
+SSH: EXEC: STDOUT/STDERR from command [sudo service nginx restart] ...
+SSH: EXEC: completed after 201 ms
+SSH: Disconnecting configuration [vagrant web ssh] ...
+SSH: Transferred 1 file(s)
+Finished: SUCCESS

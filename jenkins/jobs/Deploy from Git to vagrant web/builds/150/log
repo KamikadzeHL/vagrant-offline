@@ -1,0 +1,40 @@
+Started by user [8mha:////4FZOFj8VrrBY/YJ1K54P4hS8QpxCXjoBXnrUsP1+Nx9RAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Deploy from Git to vagrant web
+using credential 2971c125-e2ed-4253-ad31-2d919cc4cd0a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:KamikadzeHL/master-upload.git # timeout=10
+Fetching upstream changes from git@github.com:KamikadzeHL/master-upload.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress -- git@github.com:KamikadzeHL/master-upload.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+[WARNING] temp file /var/lib/jenkins/workspace/Deploy from Git to vagrant web@tmp/jenkins-gitclient-ssh2111348053049744777.key not deleted
+ERROR: Error fetching remote repo 'origin'
+hudson.plugins.git.GitException: Failed to fetch from git@github.com:KamikadzeHL/master-upload.git
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:909)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1131)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1167)
+	at hudson.scm.SCM.checkout(SCM.java:505)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1206)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:574)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:86)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:499)
+	at hudson.model.Run.execute(Run.java:1856)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+Caused by: hudson.plugins.git.GitException: Command "git fetch --tags --progress -- git@github.com:KamikadzeHL/master-upload.git +refs/heads/*:refs/remotes/origin/*" returned status code 128:
+stdout: 
+stderr: fatal: cannot exec '/var/lib/jenkins/workspace/Deploy from Git to vagrant web@tmp/jenkins-gitclient-ssh3696113314449332105.sh-copy': Permission denied
+fatal: unable to fork
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2430)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:2044)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$500(CliGitAPIImpl.java:81)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:569)
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:907)
+	... 11 more
+ERROR: Error fetching remote repo 'origin'
+SSH: Current build result is [FAILURE], not going to run.
+Finished: FAILURE

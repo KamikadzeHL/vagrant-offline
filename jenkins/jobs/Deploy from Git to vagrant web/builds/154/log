@@ -1,0 +1,17 @@
+Started by user [8mha:////4FZOFj8VrrBY/YJ1K54P4hS8QpxCXjoBXnrUsP1+Nx9RAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Deploy from Git to vagrant web
+using credential 2971c125-e2ed-4253-ad31-2d919cc4cd0a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/KamikadzeHL/master-upload.git # timeout=10
+Fetching upstream changes from https://github.com/KamikadzeHL/master-upload.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress -- https://github.com/KamikadzeHL/master-upload.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+[WARNING] temp file /var/lib/jenkins/workspace/Deploy from Git to vagrant web@tmp/jenkins-gitclient-ssh6475586559110692381.key not deleted
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 828f5d07555f85dccc51c49ffc6842e47484aa78 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 828f5d07555f85dccc51c49ffc6842e47484aa78 # timeout=10

@@ -1,0 +1,3 @@
+[filesystem "vagrant.vm|Private Build|1.8.0_252|/dev/mapper/vagrant--vg-root"]
+	timestampResolution = 4001 microseconds
+	minRacyThreshold = 0 nanoseconds

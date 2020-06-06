@@ -1,0 +1,26 @@
+Started by user [8mha:////4FZOFj8VrrBY/YJ1K54P4hS8QpxCXjoBXnrUsP1+Nx9RAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Deploy from Git to vagrant web
+using credential 2971c125-e2ed-4253-ad31-2d919cc4cd0a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/KamikadzeHL/master-upload.git # timeout=10
+Fetching upstream changes from https://github.com/KamikadzeHL/master-upload.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress -- https://github.com/KamikadzeHL/master-upload.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+[WARNING] temp file /var/lib/jenkins/workspace/Deploy from Git to vagrant web@tmp/jenkins-gitclient-ssh184431431690365875.key not deleted
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision fdf644f182373866d2ea2aec60e6cc09cec1baa4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fdf644f182373866d2ea2aec60e6cc09cec1baa4 # timeout=10
+Commit message: "webhook"
+First time build. Skipping changelog.
+SSH: Connecting from host [vagrant]
+SSH: Connecting with configuration [vagrant web ssh] ...
+SSH: EXEC: STDOUT/STDERR from command [sudo service nginx restart] ...
+SSH: EXEC: completed after 405 ms
+SSH: Disconnecting configuration [vagrant web ssh] ...
+SSH: Transferred 1 file(s)
+Finished: SUCCESS

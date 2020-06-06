@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-06-04 13:12:59.84 UTC</timestamp>
+  <md5sum>2a83235261371d07f0a4441c08c88d6c</md5sum>
+  <fileName>Credential id=2971c125-e2ed-4253-ad31-2d919cc4cd0a name=KamikadzeHL</fileName>
+  <usages>
+    <entry>
+      <string>Deploy from Git to vagrant web</string>
+      <ranges>3-131,133-154</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
